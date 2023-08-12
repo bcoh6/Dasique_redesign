@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Dasique</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500&family=Manrope:wght@400;500;600&family=Work+Sans:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+	<style></style>
+	<!-- [if lt IE 9]
+		<script src="js/html5shiv.js"></script>
+	<![endif] -->
+	<script>
+		function onoff(){
+			let menu = document.querySelector(".h_menu");
+			menu.classList.toggle("active");
+		}
+	</script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/index_jquery.js"></script>
+
+</head>
+
+<body>
+
+	<header class=""> <!-- class="on" -->
+
+		<div class="header_wrap">
+
+			<div class="info_wrap">
+				<button class="h_menu" id="btn_menu" onclick="onoff();"></button>
+				<button><img src="images/img_common_user_btn.svg" alt=""></button>
+				<button><img src="images/img_common_shopping_btn.svg" alt=""></button>
+			</div>
+			<a href="#"><img src="images/img_common_logo.png" alt=""></a>
+
+			<nav>
+				<ul class="clearfix">
+			
+					<li class="active"> <!-- class="active" -->
+						<button class="menu">Brand</button>
+						<ul class="sub">
+							<li><a href="#"><span>Brand Story</span></a></li>
+							<li><a href="#"><span>Location</span></a></li>
+							<li><a href="#"><span>Membership</span></a></li>
+						</ul>
+					</li>
+					<li>
+						<button class="menu">Kategorie</button>
+						<ul class="sub">
+							<li><a href="#"><span>Eye</span></a></li>
+							<li><a href="#"><span>Lip</span></a></li>
+							<li><a href="#"><span>Blush</span></a></li>
+							<li><a href="#"><span>Base</span></a></li>
+							<li><a href="#"><span>Collection</span></a></li>
+						</ul>
+					</li>
+					<li>
+						<button class="menu">Notice</button>
+						<ul class="sub">
+							<li><a href="#"><span>Store</span></a></li>
+							<li><a href="#"><span>Q&A</span></a></li>
+							<li><a href="#"><span>Review</span></a></li>
+						</ul>
+					</li>
+					<li>
+						<button class="menu">My</button>
+						<ul class="sub">
+							<li><a href="#"><span>Join us</span></a></li>
+							<li><a href="#"><span>My page</span></a></li>
+							<li><a href="#"><span>Order</span></a></li>
+							<li><a href="#"><span>Mileage</span></a></li>
+							<li><a href="#"><span>My Q&A</span></a></li>
+							<li><a href="#"><span>Delivery</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+	<div class="wrap">
+
+		<section class="visual">
+			<div class="view_mask">
+				<ul class="clearfix">
+					<li class="slides" data-index="0">
+						<div class="info_wrap">
+							<h3>Mood Blur<br>Lip Pencil</h3>
+							<div class="desc_wrap">
+								<p class="desc_title">무드 블러 립 펜슬</p>
+								<p class="desc">립 베이스부터, 포인트, 음영감 있는 오버립까지 다양하게 활용 가능한 드로잉 립 펜슬</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+							<div class="img m_img"><img src="images/img_index_sectionVisual_01.jpg" alt=""></div>
+							<div class="img s_img"><img src="images/img_index_sectionVisual_01_01.jpg" alt=""></div>
+						</div>
+					</li>
+					<li class="slides" data-index="1">
+						<div class="info_wrap">
+							<h3>Gloss Up!<br>Fruit Jam Coating</h3>
+							<div class="desc_wrap">
+								<p class="desc_title">프루티 립 잼</p>
+								<p class="desc">생기 가득한 과일잼이 한 겹 맑게 코팅되어 끈적임 없는 볼륨 광택을 선사하는 팟 타입 컬러 립 잼</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+							<div class="img m_img"><img src="images/img_index_sectionVisual_02.jpg" alt=""></div>
+							<div class="img s_img"><img src="images/img_index_sectionVisual_02_01.jpg" alt=""></div>
+						</div>
+					</li>
+					<li class="slides" data-index="2">
+						<div class="info_wrap">
+							<h3>Cream de<br>Butter Tint</h3>
+							<div class="desc_wrap">
+								<p class="desc_title">크림 드 버터 틴트</p>
+								<p class="desc">버터 크림 텍스쳐가 사르르 녹아들어 스프레드 할수록 얇게 초 밀착되는 크림 드 버터 틴트</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+							<div class="img m_img"><img src="images/img_index_sectionVisual_03.jpg" alt=""></div>
+							<div class="img s_img"><img src="images/img_index_sectionVisual_03_01.jpg" alt=""></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pagination">
+			<button class="active"><span><span class="blind">slide 01</span></span></button><!--
+			--><button><span><span class="blind">slide 02</span></span></button><!--
+			--><button><span><span class="blind">slide 03</span></span></button>
+			</div>
+
+			<div class="arro_btns">
+				<button class="prev"><img src="images/img_common_btn_prevnext.svg" alt=""></button>
+				<button class="next"><img src="images/img_common_btn_prevnext.svg" alt=""></button>
+			</div>
+		</section>
+
+		<section class="about">
+			<h3 class="title">About</h3>
+			<div class="inner_wrap">
+				<div class="desc">
+					<div class="img a_img"><img src="images/img_index_sectionAbout_01.png" alt=""></div>
+					<p class="a_sub_title">Blooming your own beauty</p>
+					<p class="a_sub_desc">같은 꽃이어도 컬러와 향기가 모두 다른 한송이의 꽃처럼 당신만의 무드를 꽃피워줄<br>Blooming - Mood 메이크업 브랜드 데이지크.</p>
+				</div>
+				<div class="desc">
+					<div class="sub_desc clearfix">
+						<div class="img s_img"><img src="images/img_index_sectioinAbout_02.png" alt=""></div>
+						<div class="desc_wrap">
+							<p class="sub_desc_t">Glitter</p>
+							<p class="sub_desc_d">60% 이상의 워터 베이스로 투명밀착픽싱되어 가루날림 없는 글리터</p>
+						</div>
+					</div>
+					<div class="sub_desc">
+						<div class="img s_img"><img src="images/img_index_sectioinAbout_03.png" alt=""></div>
+						<div class="desc_wrap">
+							<p class="sub_desc_t">Color</p>
+							<p class="sub_desc_d">데이지크만의 스타일링으로 재해석한 다양한 컬러 그리고 컨셉</p>
+						</div>
+					</div>
+				</div>
+				<div class="img"><img src="images/img_index_sectioinAbout_04.jpg" alt=""></div>
+			</div>
+		</section>
+
+		<section class="member">
+			<h3 class="title">Membership</h3>
+			<ul>
+				<li>
+					<div class="img"><img src="images/img_index_sectionMembership_01.svg" alt=""></div>
+					<div class="desc_wrap">
+						<p class="bene">Benefit 01</p>
+						<p class="m_title">멤버십데이 혜택</p>
+						<p class="m_desc">등급별 할인 혜택</p>
+					</div>
+				</li><!--
+				--><li>
+					<div class="img"><img src="images/img_index_sectionMembership_02.svg" alt=""></div>
+					<div class="desc_wrap">
+						<p class="bene">Benefit 02</p>
+						<p class="m_title">시크릿쿠폰</p>
+						<p class="m_desc">월1회 할인쿠폰제공</p>
+					</div>
+				</li><!--
+				--><li>
+					<div class="img"><img src="images/img_index_sectionMembership_03.svg" alt=""></div>
+					<div class="desc_wrap">
+						<p class="bene">Benefit 03</p>
+						<p class="m_title">구매 적립</p>
+						<p class="m_desc">구매 금액 2% 적립</p>
+					</div>
+				</li><!--
+				--><li>
+					<div class="img"><img src="images/img_index_sectionMembership_04.svg" alt=""></div>
+					<div class="desc_wrap">
+						<p class="bene">Benefit 04</p>
+						<p class="m_title">생일 혜택</p>
+						<p class="m_desc">40% 할인 쿠폰 지급</p>
+					</div>
+				</li>
+			</ul>
+			<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+		</section>
+
+		<section class="product">
+			<button id="pn_01" class="title"><h3 class="title">New</h3></button><button id="pn_02"><h3 class="title">Best</h3></button>
+
+			<div class="inner_wrap">
+				<div class="new">
+					<ul id="subs_wrap_01" class="clearfix">
+						<li>
+							<div class="img"><img src="images/img_index_sectionNew_01.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>[8종 SET] 스탈릿 쥬얼 리퀴드 글리터</p>
+								<p>120,000원</p><p>52,000원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/img_index_sectionNew_02.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>[1+1] 스탈릿 쥬얼 리퀴드 글리터</p>
+								<p>30,000원</p><p>15,000원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/img_index_sectionNew_03.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>[단품] 무드 블러 립펜슬</p>
+								<p>14,000원</p><p>11,200원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="best">
+					<ul id="subs_wrap_02" class="clearfix">
+						<li>
+							<div class="img"><img src="images/img_index_sectionBest_01.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>[피카소 기획 출시] 무드 업 마스카라 롱앤컬</p>
+								<p>19,000원</p><p>15,200원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/img_index_sectionBest_02.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>섀도우 팔레트 (아이스크림 컬렉션)</p>
+								<p>34,000원</p><p>27,200원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="images/img_index_sectionBest_03.jpg" alt=""></div>
+							<div class="desc_wrap">
+								<p>블렌딩 무드 치크 (아이스크림 컬렉션)</p>
+								<p>24,000원</p><p>19,200원</p>
+								<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="kategorie">
+			<h3 class="title">Kategorie</h3>
+			<ul class="clearfix">
+				<li>
+					<div class="img">
+						<img src="images/img_index_sectionKategorie_01.jpg" alt="">
+						<div class="desc_wrap">
+							<p>데이지크만의 특별한 무드가 담긴 아이팔레트, 보석을 담은 듯 반짝이는 글리터, 정교하고 섬세한 터치로 원하는 눈매 연출이 가능한 아이라이너</p>
+						</div>
+					</div>
+					<a href="#"><span>Eye</span></a>
+				</li>
+				<li>
+					<div class="img">
+						<img src="images/img_index_sectionKategorie_02.jpg" alt="">
+						<div class="desc_wrap">
+							<p>데이지크만의 특별한 컬러 컨셉이 담긴 립, 자연스러운 컬러로 입술에 촉촉한 생기를 불어넣어주고 보송하게 마무리 되는 4가지 타입의 립 </p>
+						</div>
+					</div>
+					<a href="#"><span>Lip</span></a>
+				</li>
+				<li>
+					<div class="img">
+						<img src="images/img_index_sectionKategorie_03.jpg" alt="">
+						<div class="desc_wrap">
+							<p>채도 높은 컬러를 배제하여 경계없이 자연스럽게 그림자 음영을 연출해 주는 쉐딩, 분위기에 어울리는 몽환적인 색감의 블러셔</p>
+						</div>
+					</div>
+					<a href="#"><span>Blush</span></a>
+				</li>
+				<li>
+					<div class="img">
+						<img src="images/img_index_sectionKategorie_04.jpg" alt="">
+						<div class="desc_wrap">
+							<p>블러 처리한듯 고른 피부결을 연출해 주는 쿠션, 다양한 피부 톤을 고려한 9가지 커버 쉐이드로 모든 피부결점을 보정해 주는 커스텀 컨실러 팔레트 </p>
+						</div>
+					</div>
+					<a href="#"><span>Base</span></a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="collection">
+			<div class="inner_wrap clearfix">
+				<h3 class="title">Collection</h3>
+				<div class="view_mask">
+					<ul class="clearfix">
+						<li data-index="0">
+							<div class="collect_wrap">
+								<div class="collect_wrap_01">
+									<div class="img"><img src="images/img_index_sectionCollection_01_main01.jpg" alt=""></div>
+									<div class="img"><img src="images/img_index_sectionCollection_01_main02.jpg" alt=""></div>
+									<p class="coll_desc01">Spritz delightful<br>peach mood</p>
+									<p class="coll_desc02">with Dasique Peach Squeeze Collection</p>
+								</div>
+								
+								<div class="collect_wrap_02">
+									<div class="desc_wrap">
+										<p class="img_title">Squeeze! your peach mood</p>
+										<p class="img_desc">햇살 아래 싱그러운 복숭아 과즙으로 물든 Peach Squeeze Collection 섬세한 피치 베리에이션으로 사랑스러운 생기를 더해보세요!</p>
+									</div>
+									<ul>
+										<li class="active">
+											<div class="img"><img src="images/img_index_sectionCollection_01_sub01.jpg" alt=""></div>
+											<p>섀도우 팔레트 14 피치 스퀴즈</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_01_sub02.jpg" alt=""></div>
+											<p>블렌딩 무드 치크 03 피치 블렌딩</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_01_sub03.jpg" alt=""></div>
+											<p>워터 블러 틴트</p>
+											<p>11,900원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_01_sub04.jpg" alt=""></div>
+											<p>시럽 네일 컬러</p>
+											<p>8,900원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div> 
+						</li>
+						<li data-index="1">
+							<div class="collect_wrap">
+								<div class="collect_wrap_01">
+									<div class="img"><img src="images/img_index_sectionCollection_02_main01.jpg" alt=""></div>
+									<div class="img"><img src="images/img_index_sectionCollection_02_main02.jpg" alt=""></div>
+									<p class="coll_desc01">Wear a knit<br>Beige & Violet</p>
+									<p class="coll_desc02">2022 F/W Knit Blending Mood Cheek Collection</p>
+								</div>
+								
+								<div class="collect_wrap_02">
+									<div class="desc_wrap">
+										<p class="img_title">Wear a knit : Beige & Violet</p>
+										<p class="img_desc">옷장 속 포근한 니트 무드를 담은 F/W Knit Collection<br>베이스, 음영, 글리터까지 잘 짜여진 니트 패턴으로 웨어러블한 니트스타일링을 연츨해 보세요!</p>
+									</div>
+									<ul>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_02_sub01.jpg" alt=""></div>
+											<p>섀도우 팔레트 15 베이지 니트</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_02_sub02.jpg" alt=""></div>
+											<p>섀도우 팔레트 16 바이올렛 니트</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_02_sub03.jpg" alt=""></div>
+											<p>블렌딩 무드 치크 04 베이지 니트</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_02_sub04.jpg" alt=""></div>
+											<p>블렌딩 무드 치크 05 바이올렛 니트</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li data-index="2">
+							<div class="collect_wrap">
+								<div class="collect_wrap_01">
+									<div class="img"><img src="images/img_index_sectionCollection_03_main01.jpg" alt=""></div>
+									<div class="img"><img src="images/img_index_sectionCollection_03_main02.jpg" alt=""></div>
+									<p class="coll_desc01">Cool & Warm<br>Blending</p>
+									<p class="coll_desc02">Tea Blending Collection</p>
+								</div>
+								
+								<div class="collect_wrap_02">
+									<div class="desc_wrap">
+										<p class="img_title">Blend it your own color</p>
+										<p class="img_desc">나만의 컬러로 부드럽게 블렌딩하는<br>웜/쿨 티 블렌딩 컬렉션으로 완셩해보세요!</p>
+									</div>
+									<ul>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_03_sub01.jpg" alt=""></div>
+											<p>섀도우 팔레트 12 웜 블렌딩</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_03_sub02.jpg" alt=""></div>
+											<p>섀도우 팔레트 13 쿨 블렌딩</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_03_sub03.jpg" alt=""></div>
+											<p>블렌딩 무드 치크 01 웜 블렌딩</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_03_sub04.jpg" alt=""></div>
+											<p>블렌딩 무드 치크 02 쿨 블렌딩</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li data-index="3">
+							<div class="collect_wrap">
+								<div class="collect_wrap_01">
+									<div class="img"><img src="images/img_index_sectionCollection_04_main01.jpeg" alt=""></div>
+									<div class="img"><img src="images/img_index_sectionCollection_04_main02.jpeg" alt=""></div>
+									<p class="coll_desc01">Smooth<br>Creamy<br>Deliciious</p>
+									<p class="coll_desc02">Butter Cream Collection</p>
+								</div>
+								
+								<div class="collect_wrap_02">
+									<div class="desc_wrap">
+										<p class="img_title">Smooth like butter, melting soft mood</p>
+										<p class="img_desc">버터 한 조각 넣은 듯 부드럽고 뽀얀 Soft Fit & Tone<br>바르는 순간 녹아드는 소프트 핏 버터 무드를 느껴보세요!</p>
+									</div>
+									<ul>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_04_sub01.jpg" alt=""></div>
+											<p>섀도우 팔레트 17 버터 크림</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_04_sub02.jpg" alt=""></div>
+											<p>크림 드 버터 틴트</p>
+											<p>11,900원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_04_sub03.jpg" alt=""></div>
+											<p>시럽 네일 컬러 버터 (버터 크림 컬렉션)</p>
+											<p>8,900원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li data-index="4">
+							<div class="collect_wrap">
+								<div class="collect_wrap_01">
+									<div class="img"><img src="images/img_index_sectionCollection_05_main01.jpg" alt=""></div>
+									<div class="img"><img src="images/img_index_sectionCollection_05_main02.jpg" alt=""></div>
+									<p class="coll_desc01">Ice cream shop<br>Scoop Your Favorite Flavor</p>
+									<p class="coll_desc02">Sweet Ice Cream Collection</p>
+								</div>
+								
+								<div class="collect_wrap_02">
+									<div class="desc_wrap">
+										<p class="img_title">Scoop your favorite flavor</p>
+										<p class="img_desc">So many flavors to choose from<br>our ice Cream Collection<br>Add a scoop or two for a sweet treat, and enjoy!</p>
+									</div>
+									<ul>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_05_sub01.jpg" alt=""></div>
+											<p>섀도우 팔레트</p>
+											<p>27,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_05_sub02.jpg" alt=""></div>
+											<p>블렌딩 무드 치크</p>
+											<p>19,200원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+										<li>
+											<div class="img"><img src="images/img_index_sectionCollection_05_sub03.jpg" alt=""></div>
+											<p>쥬시 듀이 틴트</p>
+											<p>11,900원</p>
+											<a class="more" href="#"><span class="more">more</span><img src="images/img_common_btn_more.svg" alt=""></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<div class="pagination">
+						<button class="active"><span><span class="blind">slide 01</span></span></button><!--
+						--><button><span><span class="blind">slide 02</span></span></button><!--
+						--><button><span><span class="blind">slide 03</span></span></button><!--
+						--><button><span><span class="blind">slide 03</span></span></button><!--
+						--><button><span><span class="blind">slide 03</span></span></button>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<footer>
+			<ul>
+				<li class="ft_menu">
+					<ul class="clearfix">
+						<li><a href="#"><span>Company</span></a></li>
+						<li><a href="#"><span>Agreement</span></a></li>
+						<li><a href="#"><span>Privacy</span></a></li>
+						<li><a href="#"><span>Guide</span></a></li>
+						<li><a href="#"><span>Business</span></a></li>
+					</ul>
+				</li>
+
+				<li class="ft_info">
+					<ul class="clearfix">
+						<li>Online-Order NO.<span>2020-서울강남-02057</span></li>
+						<li>Address<address>서울특별시 강남구 테헤란로 513, 4층(삼성동, K타워)</address></li>
+						<li>Tel<span>02-6959-3877</span></li>
+					</ul>
+				</li>
+
+				<li class="ft_follow">
+					<ul>
+						<li class="follow_title">Follow Us</li>
+						<li><a href="https://www.facebook.com/dasique.official" target="_blank"><img src="images/img_common_face.png" alt=""></a></li>
+						<li><a href="https://www.instagram.com/dasique_official/" target="_blank"><img src="images/img_common_insta.svg" alt=""></a></li>
+						<li><a href="https://www.youtube.com/channel/UCGHCXxYZ3aIOPNdFnYMvShg" target="_blank"><img src="images/img_common_youtu.svg" alt=""></a></li>
+					</ul>
+				</li>
+
+				<li class="ft_copy">
+					<ul>
+						<li>COPYRIGHT (C) 2023 dasique ALL RIGHTS RESERVED/DESIGNED BY Hyun</li>
+					</ul>
+				</li>
+			</ul>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
